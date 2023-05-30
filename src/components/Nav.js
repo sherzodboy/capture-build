@@ -69,8 +69,8 @@ const StyledNav = styled.nav`
     font-weight: lighter;
   }
   li {
-    padding-left: 10rem;
     position: relative;
+    padding-left: 10rem;
   }
   @media (max-width: 1300px) {
     flex-direction: column;
@@ -97,7 +97,7 @@ const Line = styled(motion.div)`
   position: absolute;
   bottom: -80%;
   left: 60%;
-  @media (min-width: 1300px) {
+  @media (max-width: 1300px) {
     left: 0%;
   }
 `;
