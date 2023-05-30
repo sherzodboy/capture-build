@@ -9,6 +9,7 @@ import { pageAnimation } from "./../animation";
 const MovieDetail = () => {
   const location = useLocation();
   const url = location.pathname;
+  // eslint-disable-next-line
   const [movies, setMovies] = useState(MovieState);
   const [movie, setMovie] = useState(null);
 
