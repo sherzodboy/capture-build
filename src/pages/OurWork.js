@@ -17,6 +17,7 @@ import {
   lineAnim,
 } from "./../animation";
 import { useScroll } from "./../components/useScroll";
+import ScrolTop from "../components/ScrolTop";
 
 const OurWork = () => {
   const [element, controls] = useScroll();
@@ -69,6 +70,7 @@ const OurWork = () => {
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
+      <ScrolTop />
     </Work>
   );
 };
